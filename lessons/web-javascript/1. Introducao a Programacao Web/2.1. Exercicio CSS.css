@@ -1,0 +1,32 @@
+h1 {
+    color: blue;
+    border-bottom: 2px solid gray;
+}
+
+p {
+    color: darkgray;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+ul {
+    margin: 20px;
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid #ddd;
+}
+
+img {
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

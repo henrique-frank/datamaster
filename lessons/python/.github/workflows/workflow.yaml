@@ -1,0 +1,25 @@
+name: Continuous integration
+
+# on: 
+#   pull_requests:
+#     branches:
+#       ['master']
+
+on: [pull_request, push, issue, issue_comment]
+
+jobs: 
+  continouus-integration:
+    runs-on: ubuntu-latest
+
+    steps: 
+      - uses: actions/checkout@v3
+      - name: Using python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.12
+      - name: run install and build
+        run: |
+          pip install python
+          run build
+
+          

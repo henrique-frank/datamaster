@@ -1,0 +1,71 @@
+/* Estilos Gerais */
+.container-body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+.container-body h1 {
+    color: #333;
+}
+
+/* Estilos do Input e Botão */
+.container-body input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.adicionar-task-btn {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.adicionar-task-btn:hover {
+    background-color: #449d44;
+}
+
+/* Estilos da Lista de Tarefas */
+.container-body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container-body li {
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-body li:hover {
+    background-color: #f9f9f9;
+}
+
+/* Estilo do botão de remover tarefa */
+.remove-btn {
+    background-color: #d9534f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+.remove-btn:hover {
+    background-color: brown;
+    padding: 5px 10px;
+    color: white;
+}
+/* Estilo para tarefas concluídas */
+.concluida {
+    text-decoration: line-through;
+}
